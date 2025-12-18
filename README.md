@@ -17,16 +17,23 @@ PASSO 1 — Criar conta no Google Cloud
 PASSO 2 — Ativar a API Text-to-Speech
 
 1- No menu superior, clique em “APIs e Serviços → Biblioteca”.
+
 2- Pesquise por Text-to-Speech API.
+
 3- Clique em Ativar.
 
 PASSO 3 — Criar a chave de autenticação
 
 1- Vá em APIs e Serviços → Credenciais.
+
 2- Clique em Criar credencial → Chave de conta de serviço.
+
 3- Escolha Nova conta de serviço, dê um nome (ex: tts-service).
+
 4- Em “Função”, pode deixar “Editor”.
+
 5- Após criar, clique em “Gerar chave” → JSON.
+
 6- Baixe o arquivo (ex: chave.json) e salve em uma pasta segura.
 
 PASSO 4 — Configurar variável de ambiente
