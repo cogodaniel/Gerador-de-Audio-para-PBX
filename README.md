@@ -45,10 +45,14 @@ export GOOGLE_APPLICATION_CREDENTIALS="/caminho/para/chave.json"
 PASSO 5 - Instalar o Venv e as Bibliotecas
 
 apt install python3-venv -y
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install google-cloud-texttospeech
 
 
 PASSO 6 - Executar o Venv
+
 source venv/bin/activate
