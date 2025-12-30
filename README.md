@@ -1,4 +1,4 @@
-# Gerador de Arquivos de Áudio para PBX
+# Gerador de Arquivos de Áudio por TTS para PBX
 
 ## DESCRIÇÃO: 
 
