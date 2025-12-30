@@ -1,4 +1,6 @@
-DESCRIÇÃO: 
+# Gerador de Arquivos de Áudio para PBX
+
+## DESCRIÇÃO: 
 
 Este projeto implementa um mecanismo TTS para geração de arquivos de áudios próprios e orimizados para uso em sistemas de telefonia. 
 
