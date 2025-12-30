@@ -14,8 +14,12 @@ Abaixo seguem os passos para criar a chave do google cloud, para utilização da
 ### PASSO 1 — Criar conta no Google Cloud
 
 1- Acesse: https://console.cloud.google.com/
+
 2- Faça login com sua conta Google.
+
 3- Crie um novo projeto (ex: tts-projeto).
+
+
 
 
 
@@ -26,6 +30,8 @@ Abaixo seguem os passos para criar a chave do google cloud, para utilização da
 2- Pesquise por Text-to-Speech API.
 
 3- Clique em Ativar.
+
+
 
 
 ### PASSO 3 — Criar a chave de autenticação
@@ -42,10 +48,14 @@ Abaixo seguem os passos para criar a chave do google cloud, para utilização da
 
 6- Baixe o arquivo (ex: chave.json) e salve em uma pasta segura.
 
+
+
 ### PASSO 4 — Configurar variável de ambiente
 
 No terminal:
 export GOOGLE_APPLICATION_CREDENTIALS="/caminho/para/chave.json"
+
+
 
 
 ### PASSO 5 - Instalar o Venv e as Bibliotecas
@@ -57,6 +67,8 @@ python3 -m venv venv
 source venv/bin/activate
 
 pip install google-cloud-texttospeech
+
+
 
 
 ### PASSO 6 - Executar o Venv
