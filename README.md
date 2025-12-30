@@ -53,6 +53,7 @@ Abaixo seguem os passos para criar a chave do google cloud, para utilização da
 ### PASSO 4 — Configurar variável de ambiente
 
 No terminal:
+
 export GOOGLE_APPLICATION_CREDENTIALS="/caminho/para/chave.json"
 
 
@@ -60,13 +61,13 @@ export GOOGLE_APPLICATION_CREDENTIALS="/caminho/para/chave.json"
 
 ### PASSO 5 - Instalar o Venv e as Bibliotecas
 
-apt install python3-venv -y
+1- apt install python3-venv -y
 
-python3 -m venv venv
+2- python3 -m venv venv
 
-source venv/bin/activate
+3- source venv/bin/activate
 
-pip install google-cloud-texttospeech
+4- pip install google-cloud-texttospeech
 
 
 
