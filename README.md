@@ -1,11 +1,13 @@
 # Gerador de Arquivos de Áudio por TTS para PBX
 
-## DESCRIÇÃO: 
+## 1. Descrição 
 
 Este projeto implementa um mecanismo TTS para geração de arquivos de áudios próprios e orimizados para uso em sistemas de telefonia. 
 
 Os áudios gerados seguem o padrão amplamente utilizado em plataformas de telefonia PBX, são criados no formato wav, taxa de amostragem 8KHz, monocanal e 16 bits. 
 
+
+## 2. Instalação e Execução
 Abaixo seguem os passos para criar a chave do google cloud, para utilização da API Text-to-speech do Google. Em seguida a instalação e execução do código. 
 
 
