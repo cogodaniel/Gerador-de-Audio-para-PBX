@@ -13,11 +13,11 @@ Abaixo seguem os passos para criar a chave do google cloud, para utilização da
 
 ### PASSO 1 — Criar conta no Google Cloud
 
-1- Acesse: https://console.cloud.google.com/
+- Acesse: https://console.cloud.google.com/
 
-2- Faça login com sua conta Google.
+- Faça login com sua conta Google.
 
-3- Crie um novo projeto (ex: tts-projeto).
+- Crie um novo projeto (ex: tts-projeto).
 
 
 
@@ -25,28 +25,28 @@ Abaixo seguem os passos para criar a chave do google cloud, para utilização da
 
 ### PASSO 2 — Ativar a API Text-to-Speech
 
-1- No menu superior, clique em “APIs e Serviços → Biblioteca”.
+- No menu superior, clique em “APIs e Serviços → Biblioteca”.
 
-2- Pesquise por Text-to-Speech API.
+- Pesquise por Text-to-Speech API.
 
-3- Clique em Ativar.
+- Clique em Ativar.
 
 
 
 
 ### PASSO 3 — Criar a chave de autenticação
 
-1- Vá em APIs e Serviços → Credenciais.
+- Vá em APIs e Serviços → Credenciais.
 
-2- Clique em Criar credencial → Chave de conta de serviço.
+- Clique em Criar credencial → Chave de conta de serviço.
 
-3- Escolha Nova conta de serviço, dê um nome (ex: tts-service).
+- Escolha Nova conta de serviço, dê um nome (ex: tts-service).
 
-4- Em “Função”, pode deixar “Editor”.
+- Em “Função”, pode deixar “Editor”.
 
-5- Após criar, clique em “Gerar chave” → JSON.
+- Após criar, clique em “Gerar chave” → JSON.
 
-6- Baixe o arquivo (ex: chave.json) e salve em uma pasta segura.
+- Baixe o arquivo (ex: chave.json) e salve em uma pasta segura.
 
 
 
@@ -61,13 +61,13 @@ export GOOGLE_APPLICATION_CREDENTIALS="/caminho/para/chave.json"
 
 ### PASSO 5 - Instalar o Venv e as Bibliotecas
 
-1- apt install python3-venv -y
+- apt install python3-venv -y
 
-2- python3 -m venv venv
+- python3 -m venv venv
 
-3- source venv/bin/activate
+- source venv/bin/activate
 
-4- pip install google-cloud-texttospeech
+- pip install google-cloud-texttospeech
 
 
 
