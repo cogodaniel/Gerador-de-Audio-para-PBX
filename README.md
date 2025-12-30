@@ -11,11 +11,12 @@ Os áudios gerados seguem o padrão amplamente utilizado em plataformas de telef
 Abaixo seguem os passos para criar a chave do google cloud, para utilização da API Text-to-speech do Google. Em seguida a instalação e execução do código. 
 
 
-PASSO 1 — Criar conta no Google Cloud
+### PASSO 1 — Criar conta no Google Cloud
 
 1- Acesse: https://console.cloud.google.com/
 2- Faça login com sua conta Google.
 3- Crie um novo projeto (ex: tts-projeto).
+
 
 
 PASSO 2 — Ativar a API Text-to-Speech
